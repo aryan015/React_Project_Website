@@ -8,19 +8,18 @@ body {
   min-height: 100vh;
   background-color: rgb(177, 224, 255);
 }
-header {
-  text-align: center;
-  font-size: 1.5rem;
-  /* color: */
-}
+
 .title {
-  width: 1000px;
+  text-align:center;
   margin: auto;
   position: relative;
   margin-bottom: 50px;
 }
 .title h1 {
-  margin-bottom: 0;
+  margin:0 auto;
+  margin-top:15px;
+  position: relative;
+  width:500px;
 }
 .underline {
   width: 100px;
@@ -29,6 +28,14 @@ header {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+}
+.sub-title{
+  position: absolute;
+  right:35px;
+  top:0px;
+}
+.box-container{
+  width:100%;
 }
 .box {
   display: inline-block;
@@ -106,10 +113,11 @@ header {
   text-align: center;
 }
 .container {
-  margin: 0 50px;
+
 }
 .box-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  width:100vw;
 }
